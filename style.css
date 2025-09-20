@@ -1,0 +1,19 @@
+.image {
+  margin: 50px auto;
+  width: 1000px;
+  position: relative;
+}
+
+.image #svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image #svg path {
+  mix-blend-mode: multiply;
+}
+
+.color-picker {
+  text-align: center;
+}
